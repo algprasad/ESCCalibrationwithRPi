@@ -150,6 +150,7 @@ int main() {
     cout<<"calibrate----OR---manual---OR----stop---OR-------arm"<<endl;
 
     string input;
+    cin>>input;
     if(input == "stop")
         stop();
 
